@@ -70,6 +70,32 @@ nnoremap <Space>c :action $Copy<CR>
 nnoremap <Space>v :action $Paste<CR>
 nnoremap <Space>n :next<CR>
 
-nnoremap gb <C-b>
-nnoremap gf <C-f>
+" Select all text
+map <Leader>a ggVG
+
+nnoremap U :action $Redo<CR>
+nnoremap / :action Find<CR>
+nnoremap n :action FindNext<CR>
+nnoremap N :action FindPrevious<CR>
+nnoremap g/ /
+nnoremap gn
+nnoremap gN N
+
+nnoremap <leader>fu :action FindUsages<cr>
+nnoremap <leader>su :action ShowUsages<cr>
+nnoremap <leader>cv :action ChangeView<cr>
+nnoremap <leader>bb :action ToggleLineBreakpoint<cr>
+nnoremap <leader>br :action ViewBreakpoints<cr>
+nnoremap <leader>ic :action InspectCode<cr>
+nnoremap <leader>oi :action OptimizeImports<cr>
+nnoremap <leader>re :action RenameElement<cr>
+nnoremap <leader>rf :action RenameFile<cr>
+nnoremap <leader>dc :action ChooseDebugConfiguration<cr>
+nnoremap <leader>rc :action ChooseRunConfiguration<cr>
+nnoremap <leader>q  :action CloseActiveTab<cr>
+nnoremap <leader>gi :action GotoImplementation<cr>
+nnoremap <leader>gs :action GotoSuperMethod<cr>
+nnoremap <leader>gd :action GotoDeclaration<cr>
+nnoremap <leader>e :action GotoNextError<cr>
+nnoremap <leader>E :action GotoPreviousError<cr>
 
