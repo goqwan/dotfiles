@@ -220,9 +220,9 @@ vnoremap <silent>ii :<C-U>cal <SID>IndTxtObj(1)<CR><Esc>gv
 map <Leader>t :NERDTreeToggle<CR>
 
 " CtrlP
-nnoremap <Leader>p :CtrlP<CR>
-nnoremap <Leader>o :CtrlPBuffer<CR>
-nnoremap <Leader>r :CtrlPFunky<CR>
+nnoremap <Leader>cp :CtrlP<CR>
+nnoremap <Leader>cb :CtrlPBuffer<CR>
+nnoremap <Leader>cf :CtrlPFunky<CR>
 
 function! s:IndTxtObj(inner)
   let curline = line(".")
